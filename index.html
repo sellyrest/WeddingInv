@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <title>Yes She Said I Do | Mark & Lily</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sakura/sakura.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <!-- sweatalert -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- popup section -->
+    <section id="popup" class="min-vh-100 min-vw-100 position-fixed start-0 top-0 overflow-hidden">
+        <div class="container atas position-relative">
+            <div class="row position-relative">
+                <div class="position-absolute text-center name">
+                    <h1 class="nickname_1">Mark</h1>
+                    <p class="nickname_2"> & </p>
+                    <h1 class="nickname_1">Lily</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container bawah position-relative">
+            <div class="row position-relative">
+                <div class="text-center position-absolute invite">
+                    <span>Kpd. Yth. :</span>
+                    <p>GUEST & PARTNER</p>
+                    <button type="button" class="btn btn-open" onclick="window.toggle_click();">Open
+                        Invitation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <!-- header section -->
+        <section id="header">
+            <div class="container-fluid">
+                <div class="row position-relative">
+                    <div class="col-12 header-content position-absolute text-center">
+                        <h1 class="nama_a">Mark</h1>
+                        <h3>&</h3>
+                        <h1 class="nama_b">Lily</h1>
+                        <h2 class="date-header">Jan . 18 th . 2030</h2>
+                    </div>
+                    <img src="img/bg1.png" alt=""
+                        class="d-none d-sm-block" />
+                    <img src="img/bg1_mobile.png" alt=""
+                        class="d-block d-sm-none" />
+                </div>
+            </div>
+        </section>
+        <!-- wedding section -->
+        <section id="wedding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center text-invite mb-3 mb-sm-5" data-aos="fade-down">
+                        <p>We Invited you to celebrate our wedding</p>
+                    </div>
+                    <div class="col-sm-5 text-center wedding-content" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="img/p_boy.png" alt=""
+                            class="rounded-circle mb-md-5 mb-sm-4 mb-3" /><br />
+                        <span>Mark Cullen Robert</span>
+                        <p>
+                            Son of Mr. Edward Cullen & Mrs. Yuliana Wijayanti
+                        </p>
+                    </div>
+                    <div class="col-sm-2 text-center wedding-content" data-aos="zoom-in-up" data-aos-duration="2500">
+                        <h1>&</h1>
+                    </div>
+                    <div class="col-sm-5 text-center wedding-content" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="img/p_girl.png" alt=""
+                            class="rounded-circle mb-md-5 mb-sm-4 mb-3" /><br />
+                        <span>Lily Anna Laurent</span>
+                        <p>
+                            Daughter of Mr. Yoseph & Mrs. Diana Laurent
+                        </p>
+                    </div>
+                    <img src="img/ol4.png" alt=""
+                    class="ornament-invite" />
+                </div>
+            </div>
+        </section>
+        <!-- save the date section -->
+        <section id="saveDate" class="position-relative overflow-hidden">
+            <div class="wrap-save">
+                <div class="row">
+                            <div class="col-12 col-sm-6 save-detail text-center" data-aos="fade-right" data-aos-duration="2500">
+                                <h5>BLESSING CEREMONY</h5>
+                                <span class="date">17</span>
+                                <div class="d-inline-block">
+                                    <span class="time">Jan<br />2030</span>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="d-inline-block">
+                                    <span class="time">10:00<br />WIB</span>
+                                </div>
+                                <br />
+                                <p class="place">Hotel Aston Premium</p>
+                                <p class="address">
+                                    Jl. Pahlawan No 112
+                                </p>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+                                    <a href="https://goo.gl/maps/DycewPRBPzqr3ukVA"
+                                        class="btn btn-map mb-3 mb-md-5"><i class="fa fa-map-o"
+                                            aria-hidden="true"></i> See Map</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 save-detail mt-3 mt-sm-0 text-center" data-aos="fade-left"
+                                data-aos-duration="2500">
+                                <h5>RECEPTION</h5>
+                                <span class="date">22</span>
+                                <div class="d-inline-block">
+                                    <span class="time">June<br />2024</span>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="d-inline-block">
+                                    <span class="time">13:00<br />WIB</span>
+                                </div>
+                                <br />
+                                <p class="place">Lavana Castle</p>
+                                <p class="address">
+                                    Jl. Kemayoran No 30
+                                </p>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+                                    <a href="https://goo.gl/maps/DycewPRBPzqr3ukVA" class="btn btn-map mb-5"><i
+                                            class="fa fa-map-o" aria-hidden="true"></i> See Map</a>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <div class="wrap-image container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <img class="img-fluid" src="img/foto-1.png" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="img/foto-2.png" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="img/foto-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- rsvp section -->
+        <section id="rsvp">
+            <div class="container position-relative d-md-block d-flex justify-content-center">
+                <div class="row row-attending mx-auto position-relative" data-aos="fade-down"
+                    data-aos-duration="2000">
+                    <div class="attending-header text-center mt-4" data-aos="fade-down" data-aos-duration="2000"
+                        data-aos-delay="1000">
+                        <h3>Are You Attending?</h3>
+                    </div>
+                    <div class="form-attending text-center px-4" data-aos="fade-down" data-aos-duration="2000"
+                        data-aos-delay="1000">
+                        <form id="form-confirm">
+                            <div class="row mb-3">
+                                <div class="form-floating">
+                                    <input type="hidden" id="guest_id" name="guest_id" value="">
+                                    <input type="text" class="form-control" id="username" value=""
+                                        placeholder="username">
+                                    <label for="username">Your Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="phone" value=""
+                                        placeholder="phone">
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                                <div class="form-floating">
+                                    <select class="form-select" id="confirm" name="confirm"
+                                        aria-label="Floating label select example">
+                                        <option value="1" selected>Guest</option>
+                                        <option value="0">Family</option>
+                                        <option value="2">Friends from work</option>
+                                        <option value="3">Friends from highschool</option>
+                                        <option value="4">Friends from middleschool</option>
+                                    </select>
+                                    <label for="confirm">let us know who you are</label>
+                                </div>
+                                <div class="col-12 form-floating text-center">
+                                    <button id="btn-attend" type="button" class="btn btn-rsvp">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img class="foto_oj" src="img/ourj.png" alt="">
+        </section>
+        <!-- Our Journey section -->
+        <section id="loveStory">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center content-story" data-aos="fade-down" data-aos-duration="2000">
+                        <h1 class="title-story">Our Journey</h1>
+                    </div>
+                </div>
+                <div class="row d-none d-sm-flex">
+                    <div class="col-5 text-end mb-5 position-relative" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <img src="img/oj1.png" alt="">
+                        <img src="img/ornament_oj1.png" alt=""
+                        class="ornament-foto1 position-absolute">
+                    </div>
+                    <div class="col-5 text-start m-auto" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <h5>Our First Meet <span style="color: #a39897;">02.March.2020</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                    <div class="col-5 text-end m-auto" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <h5>IN RELATIONSHIP <span style="color: #a39897;">03.05.2019</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                    <div class="col-5 text-start mb-5" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <img src="img/oj2.png" alt="">
+                        <img src="img/ornament_oj2.png" alt=""
+                        class="ornament-foto2 position-absolute">
+                    </div>
+                    <div class="col-5 text-end mb-5" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <img src="img/oj3.png" alt="">
+                        <img src="img/ornament_oj3.png" alt=""
+                        class="ornament-foto3 position-absolute">
+                    </div>
+                    <div class="col-5 text-start m-auto" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <h5>ENGAGEMENT <span style="color: #a39897;">03.05.2020</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                </div>
+                <div class="row d-flex d-sm-none">
+                    <div class="col-12 text-center mb-5" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <img src="img/oj1.png" alt="" class="rounded-circle">
+                    </div>
+                    <div class="col-12 text-center m-auto" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <h5>FIRST MEET <span>03.05.2018</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                    <div class="col-12 text-center mb-5" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <img src="img/oj2.png" alt="" class="rounded-circle">
+                    </div>
+                    <div class="col-12 text-center m-auto" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <h5>IN RELATIONSHIP <span>03.05.2019</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                    <div class="col-12 text-center mb-5" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <img src="img/oj3.png" alt="" class="rounded-circle">
+                    </div>
+                    <div class="col-12 text-center m-auto" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <h5>ENGAGEMENT <span>03.05.2020</span></h5>
+                        <p>See the lights, see the party, the ball gowns see you make your way through the crowd and say "Hello" little did i know</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery section -->
+        <section id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col header text-center" data-aos="fade-down" data-aos-duration="2000">
+                        <h1>Gallery</h1>
+                    </div>
+                </div>
+                <div class="row flex-wrap d-flex d-sm-none d-md-flex">
+                    <div class="column">
+                        <img src="img/fotog5.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog4.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog7.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                    </div>
+                    <div class="column">
+                        <img src="img/fotog2.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog6.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                     
+                    </div>
+                    <div class="column">
+                        <img src="img/foto-3.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog1.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog3.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                    </div>
+                </div>
+                <div class="row flex-wrap d-none d-sm-flex d-md-none ">
+                    <div class="column">
+                        <img src="img/fotog3.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog7.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                    </div>
+                    <div class="column">
+                        <img src="img/fotog2.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                        <img src="img/fotog4.png" alt=""
+                            data-aos="flip-left" data-aos-duration="2200" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video section -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1-GLrbJzG3A?autoplay=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; muted;"
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <!-- wishes section --->
+        <section id="wishes">
+            <div class="container">
+                <div class="row row-wishes">
+                    <div class="col-12 form-wishes" data-aos="fade-down" data-aos-duration="2000">
+                        <h2 class="text-center">Thanks for Your Great Wishes</h2>
+                        <form id="form-wishes">
+                            <div class="row" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000">
+                                <div class="col-12 form-floating">
+                                    <input type="hidden" id="event_id" name="event_id" value="">
+                                    <input type="text" class="form-control" id="name" placeholder="name"
+                                        name="name" value="">
+                                    <label for="name">Your Name</label>
+                                </div>
+                                <div class="col-12 form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message"
+                                        style="height: 75px"></textarea>
+                                    <label for="message">Wish</label>
+                                </div>
+                                <div class="col-12 form-floating text-center">
+                                    <button id="btn-wishes" type="button" class="btn btn-rsvp">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="data-wishes" class="mt-4" data-aos="fade-down" data-aos-duration="2000"
+                    data-aos-delay="1500">
+                    <div id="comment-carousel" class="owl-carousel owl-theme position-relative">
+                        <div class="item">
+                            <div class="card card-comment shadow">
+                                <div class="card-body">
+                                    <span>Ares Saputra</span>
+                                    <hr class="hr-comment">
+                                    <p>Happy Wedding</p>
+                                    <img src="img/ornament-wish.png" alt=""
+                                    class="kutip float-end">
+                                    <div class="mt-4 mb-2">
+                                        <img src="img/quote.png" alt=""
+                                            style="width: 10%; height:auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-comment shadow">
+                                <div class="card-body">
+                                    <span>Shintya</span>
+                                    <hr class="hr-comment">
+                                    <p>be happy for you!</p>
+                                    <img src="img/ornament-wish.png" alt=""
+                                    class="kutip float-end">
+                                    <div class="mt-4 mb-2">
+                                        <img src="img/quote.png" alt=""
+                                            style="width: 10%; height:auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-comment shadow">
+                                <div class="card-body">
+                                    <span>Lala</span>
+                                    <hr class="hr-comment">
+                                    <p>samawaa</p>
+                                    <img src="img/ornament-wish.png" alt=""
+                                    class="kutip float-end">
+                                    <div class="mt-4 mb-2">
+                                        <img src="img/quote.png" alt=""
+                                            style="width: 10%; height:auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-comment shadow">
+                                <div class="card-body">
+                                    <span>Fajar</span>
+                                    <hr class="hr-comment">
+                                    <p>best wishes deh buat kalian</p>
+                                    <img src="img/ornament-wish.png" alt=""
+                                    class="kutip float-end">
+                                    <div class="mt-4 mb-2">
+                                        <img src="img/quote.png" alt=""
+                                            style="width: 10%; height:auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- thank section -->
+        <section id="thank">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3>Thank You</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="name_up">Mark</h1>
+                        <h5>&</h5>
+                        <h1 class="name_down">Lily</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- music section -->
+    <div id="btn-play" class="btn-play" style="display: block;">
+        <button type="button" class="music" onclick="play()">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div id="btn-stop" class="btn-stop" style="display: none;">
+        <button type="button" class="music" onclick="stop()">
+            <i class="fa fa-volume-off" aria-hidden="true"></i>
+        </button>' '
+    </div>
+    <audio loop autoplay id="audio" src="/asset/audio.mp3"></audio>
+    <!-- script -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/sakura/sakura.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            AOS.init({
+                easing: 'ease-out-back',
+                duration: 1000
+            });
+        });
+
+        var currentState = 'show';
+        window.toggle_click = function() {
+            if (currentState === 'show') {
+                $('#popup').removeClass('panel-show');
+                currentState = 'hide';
+                document.getElementById('btn-play').style.display = 'block';
+                document.getElementById('btn-stop').style.display = 'none';
+                var sound = document.getElementById("audio");
+                sound.play();
+            } else {
+                $('#popup').removeClass('panel-hide');
+                currentState = 'show';
+            }
+            $('#popup').addClass('panel-' + currentState);
+        };
+
+        var sakura = new Sakura('.wrapper', {
+            colors: [{
+                    gradientColorStart: 'rgba(218, 184, 120, 0.7)',
+                    gradientColorEnd: 'rgba(218, 184, 120, 0.7)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(218, 184, 120, 1)',
+                    gradientColorEnd: 'rgba(218, 184, 120)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(218, 184, 120, 0.5)',
+                    gradientColorEnd: 'rgba(218, 184, 120, 0.5)',
+                    gradientColorDegree: 120,
+                },
+            ],
+        });
+
+        function play() {
+            document.getElementById('btn-play').style.display = 'none';
+            document.getElementById('btn-stop').style.display = 'block';
+            var sound = document.getElementById("audio");
+            sound.pause();
+        }
+
+        function stop() {
+            document.getElementById('btn-play').style.display = 'block';
+            document.getElementById('btn-stop').style.display = 'none';
+            var sound = document.getElementById("audio");
+            sound.play();
+        }
+
+        function copyBRI() {
+            var copyText = $('.bri').html();
+            navigator.clipboard.writeText(copyText);
+
+            var tooltip = document.getElementById("myTooltip1");
+            tooltip.innerHTML = "Copied: " + copyText;
+        }
+
+        function copyBCA() {
+            var copyText = $('.bca').html();
+            navigator.clipboard.writeText(copyText);
+
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copied: " + copyText;
+        }
+
+        function outFunc1() {
+            var tooltip = document.getElementById("myTooltip1");
+            tooltip.innerHTML = "Copy Account";
+        }
+
+        function outFunc2() {
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copy Account";
+        }
+
+        $('#clock').countdown('2023/02/11 11:00:00', function(event) {
+            $(this).html(event.strftime(
+                '<div class="countdown_wrap d-flex justify-content-evenly"><div  class="single_countdown"><h3>%D</h3><span>Days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'
+            ));
+        });
+
+        $('#comment-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [$('.btn-prev'), $('.btn-next')],
+            dots: false,
+            autoHeight: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    center: true,
+                },
+                576: {
+                    items: 2,
+                },
+                768: {
+                    items: 3,
+                },
+                992: {
+                    items: 4,
+                }
+            }
+        });
+
+        function attend() {
+            var data = new FormData($('#form-confirm')[0]);
+
+            $.ajax({
+                type: "POST",
+                url: "{{ url('save-attend",
+                data: data,
+                mimeType: "multipart/form-data",
+                contentType: false,
+                cache: false,
+                processData: false,
+                beforeSend: function() {
+                    $('#btn-attend').html('Sending ...');
+                },
+                success: function(response) {
+                    setTimeout(function() {
+                        var resp = JSON.parse(response);
+                        // console.log(response);
+                        if (resp.status == 1) {
+                            Swal.fire({
+                                position: 'center',
+                                icon: 'success',
+                                title: 'RSVP has been sent',
+                                showConfirmButton: false,
+                                timer: 2500
+                            })
+                            $("#confirm").val(resp.data.confirm);
+                            $("#confirm").attr("disabled", true);
+                            $('#btn-attend').html('Send Confirmation');
+                            $("#btn-attend").hide();
+                        } else {
+                            alert(resp.message);
+                            $('#btn-attend').html('Send Confirmation');
+                        }
+                    }, 1000);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Error: " + errorThrown);
+                    $('#btn-attend').html('Send Confirmation');
+                }
+            });
+        }
+
+        function saveComment() {
+            var data = new FormData($('#form-wishes')[0]);
+            $.ajax({
+                type: "POST",
+                url: "{{ route('comment-wedding",
+                data: data,
+                mimeType: "multipart/form-data",
+                contentType: false,
+                cache: false,
+                processData: false,
+                beforeSend: function() {
+                    $('#btn-wishes').html('Sending. . .');
+                },
+                success: function(response) {
+                    setTimeout(function() {
+                        var resp = JSON.parse(response);
+
+                        const monthNames = ["January", "February", "March", "April", "May",
+                            "June",
+                            "July", "August", "September", "October", "November",
+                            "December"
+                        ];
+
+                        if (resp.status == 1) {
+                            Swal.fire({
+                                position: 'center',
+                                icon: 'success',
+                                title: 'Wish has been sent',
+                                showConfirmButton: false,
+                                timer: 2500
+                            })
+
+                            $.ajax({
+                                type: "GET",
+                                url: "{{ url('data-comment",
+                                data: {
+                                    id: $("#event_id").val(),
+                                },
+                                mimeType: "multipart/form-data",
+                                success: function(response) {
+                                    $("#data-wishes").html('')
+                                    let text = ''
+                                    text +=
+                                        '<div id="comment-carousel" class="owl-carousel owl-theme">';
+                                    $.each(JSON.parse(response), function(index,
+                                        item) {
+                                        var d = new Date(item
+                                            .updated_at);
+                                        var time = d.getHours() + ':' +
+                                            d
+                                            .getMinutes() + ':' + d
+                                            .getSeconds();
+                                        text += '<div class="item">' +
+                                            '<div class="card card-comment shadow">' +
+                                            '<div class="card-body">' +
+                                            '<p>' + item.message +
+                                            '</p>' +
+                                            '<div class="mt-4 mb-2">' +
+                                            '<img src="/template/ornamen-green/img/quote.png" alt="" style="width: 10%; height:auto">' +
+                                            '</div>' +
+                                            '<hr class="hr-comment">' +
+                                            '<span>' + item.name +
+                                            '</span>' +
+                                            '</div>' +
+                                            '</div>' +
+                                            '</div>';
+                                    });
+                                    text += '</div>';
+                                    $('#data-wishes').append(text);
+                                    $('#comment-carousel').owlCarousel({
+                                        loop: false,
+                                        center: true,
+                                        margin: 10,
+                                        nav: true,
+                                        navText: [$('.btn-prev'), $(
+                                            '.btn-next')],
+                                        dots: false,
+                                        autoHeight: true,
+                                        responsiveClass: true,
+                                        responsive: {
+                                            0: {
+                                                items: 1,
+                                            },
+                                            576: {
+                                                items: 2,
+                                            },
+                                            768: {
+                                                items: 3,
+                                            },
+                                            992: {
+                                                items: 4,
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+                            $('#btn-wishes').html('Send');
+                            $('#form-wishes').trigger('reset');
+                        } else {
+                            alert(resp.message);
+                            $('#btn-wishes').html('Send');
+                        }
+                    }, 1000);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Error: " + errorThrown);
+                    $('#btn-wishes').html('Send');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

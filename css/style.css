@@ -1,0 +1,520 @@
+@font-face {
+    font-family: Playfairdisplay;
+    src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: CormorantInfrant;
+    src: url('../font/CormorantInfant-Regular.ttf');
+}
+
+@font-face {
+    font-family: CormorantInfrantBold;
+    src: url('../font/CormorantInfant-Bold.ttf');
+}
+
+@font-face {
+    font-family: CormorantUpright;
+    src: url('../font/CormorantUpright-Regular.ttf');
+}
+
+body {
+    font-family: 'CormorantInfrant', serif;
+    color: rgb(254, 254, 254);
+}
+
+#popup {
+    background-image: url('../img/popup-bg.jpg');
+    background-color: #535353;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    z-index: 10;
+}
+
+#popup .container {
+    width: auto;
+    height: 50vh;
+}
+
+#popup .name {
+    left: -35%;
+    padding-top: 80px;
+    line-height: 0;
+}
+
+#popup .invite {
+    left: -14%;
+    padding-top: 50px;
+    padding-right: 585px;
+}
+
+#popup .invite span, #popup .invite p {
+    color: white;
+}
+
+#popup .invite p {
+    font-size: 26px;
+}
+
+#popup .nickname_1 {
+    font-family: Playfairdisplay;
+    font-size: 72pt;
+}
+
+#popup .nickname_2 {
+    font-family: Playfairdisplay;
+    font-size: 32pt;
+}
+
+#popup span {
+    font-size: 38px;
+    font-family: CormorantInfrant;
+}
+
+.btn-open {
+    border-color: #bab8b5;
+    color: #d4d2cf;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.btn-open:hover, .btn-open:focus {
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgb(235, 235, 235);
+}
+
+.panel-hide {
+    transform: translateY(-100%);
+    -webkit-transition: .3s ease-out !important;
+    -moz-transition: .3s ease-out !important;
+    -o-transition: .3s ease-out !important;
+    transition: .3s ease-out !important;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header img {
+    padding: 0;
+    max-width: 100% !important;
+    width: 100vw !important;
+}
+
+.header-content {
+    color: #58555a;
+    top: 20%;
+}
+
+.header-content h1 {
+    font-family: Playfairdisplay;
+    font-size: 7rem;
+}
+
+.nama_a {
+    transform: translate(-8%, 20%) !important;
+}
+
+.nama_b {
+    transform: translate(3%, 20%) !important;
+}
+
+.date-header {
+    transform: translate(2%, 3%) !important;
+}
+
+.header-content h3 {
+    font-size: 3rem;
+    transform: translate(-1%, 20%) !important;
+}
+
+.header-content h2 {
+    font-size: 2rem;
+    margin-top: 100px;
+    font-family: CormorantInfrant;
+}
+
+#wedding {
+    background-image: url('../img/bg-invite.png');
+    background-position: 45%;
+    color: #fff8ea;
+    padding: 100px 100px;
+}
+
+#wedding h3 {
+    margin-bottom: 0;
+    color: #fff8ea;
+
+}
+
+.wedding-content i {
+    font-size: 20px;
+    color: #fff8ea;
+}
+
+#wedding h1 {
+    font-size: 70px;
+    color: #fff8ea;
+    margin: 62px 0px;
+    vertical-align: middle;
+}
+
+#wedding .text-center span {
+    font-size: 42px;
+    line-height: 28px;
+}
+
+.text-invite {
+    font-size: 27px;
+}
+
+#wedding img {
+    width: 55%;
+    height: auto;
+}
+
+.wedding-content p {
+    font-size: 18px;
+    color: #fff8ea;
+    margin-top: 20px;
+}
+
+.ornament-invite {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+#saveDate {
+    color: #fff8ea;
+    background-color: #535353;
+}
+
+#saveDate .save-title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: CormorantInfrant;
+}
+
+.save-title h2 {
+    font-size: 2rem;
+    color: #fff8ea;
+}
+
+.save-detail h5 {
+    font-size: 22px;
+    margin: 0;
+    color: #fff8ea;
+}
+
+
+.save-detail .date {
+    font-size: 60px;
+    line-height: 30px;
+    color: #fff8ea;
+}
+
+.save-detail .time {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff8ea;
+}
+
+.save-detail .line {
+    font-size: 48px;
+    line-height: 100%;
+    vertical-align: super;
+    color: #fff8ea;
+}
+
+.save-detail .place {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #dfc38a;
+}
+
+.btn-map {
+    background-color: transparent;
+    color: #fff8ea;
+    border-radius: 25px;
+    color: #fff8ea;
+}
+
+.btn-map:hover {
+    background-color: white;
+    color: #594545;
+}
+
+.btn-map:focus {
+    box-shadow: none;
+}
+
+.wrap-save {
+    padding: 100px 200px;
+}
+.wrap-image {
+    padding-bottom: 100px;
+} 
+
+
+#rsvp {
+    background-image: url('../img/bg-attend.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff8ea;
+}
+#rsvp .container{
+    padding: 100px;
+}
+
+.row-attending {
+    background-color: #535353;
+    border-radius: 20px;
+}
+
+
+.form-attending input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e5c5a4;
+    outline: none;
+}
+
+.form-attending .form-select {
+    background-image: url('../img/down_arrow.png');
+    background-color: #535353;
+    background-size: small;
+    background-repeat: no-repeat;
+    border: none;
+    border-bottom: 1px solid #e5c5a4;
+    outline: none;
+    color: #fff8ea;
+}
+
+.form-attending input:focus, .form-attending .form-select:focus {
+    box-shadow: none;
+    color: #fff8ea;
+    border-bottom: 1px solid #e5c5a4;
+}
+
+option:checked {
+    background-color: #464646;
+}
+
+.form-control:disabled, .form-control[readonly], .form-select:disabled {
+    background-color: transparent;
+}
+
+.btn-rsvp {
+    background-color: #e5c5a4;
+    color: #535353;
+    margin: 30px 0;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.btn-rsvp:hover {
+    background-color: transparent;
+    color: #e5c5a4;
+    outline: auto;
+    border-radius: 10px;
+}
+
+#countdown {
+    color: #112e13;
+}
+
+#countdown .countdown_area .countdown_wrap {
+    padding-bottom: 36px;
+    padding-top: 30px;
+}
+
+#countdown .countdown_area .countdown_wrap .single_countdown {
+    text-align: center;
+}
+
+#countdown .countdown_area .countdown_wrap .single_countdown h3 {
+    font-size: 60px;
+}
+
+#countdown .countdown_area .countdown_wrap .single_countdown span {
+    font-size: 24px;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.ornament-foto1 {
+    left: 12%;
+    bottom: 0;
+    width: 120px !important;
+}
+
+.ornament-foto2 {
+    right: 12%;
+    bottom: -30%;
+    width: 140px !important;
+}
+
+.ornament-foto3 {
+    left: 15%;
+    bottom: 0;
+    width: 90px !important;
+}
+
+.foto_oj{
+    width: 100vw;
+    height: auto;
+}
+#loveStory {
+    padding: 100px 200px;
+    color: #594545;
+}
+.ourjourney {
+    width: 18%;
+}
+
+#loveStory h1, #gallery .header>h1 {
+    text-align: center;
+    font-family: CormorantInfrant;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#loveStory p {
+    line-height: 200%;
+}
+
+#loveStory img {
+    width: 300px;
+}
+
+#gallery {
+    background-color: #cccccc;
+    padding: 100px 50px;
+    color: #343622;
+}
+
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 33%;
+    padding: 0 6px;
+}
+
+.column img {
+    margin-top: 12px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+
+#wishes {
+    background-color: #dedddd;
+    padding: 100px 200px;
+    color: #282822;
+}
+
+#wishes .row-wishes {
+    padding: 0px 20px;
+}
+
+.form-wishes {
+    background-color: transparent;
+}
+
+.form-wishes h2 {
+    margin-bottom: 50px;
+    font-family: CormorantInfrant;
+    font-size: 28px;
+    color: #282822;
+}
+
+.kutip {
+    width: 16% !important;
+    height: auto;
+}
+
+.form-wishes input, .form-wishes textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #282822;
+    outline: none;
+    color: #282822;
+}
+
+.form-wishes input:focus, .form-wishes textarea:focus {
+    box-shadow: none;
+    color: #112e13;
+    border-bottom: 1px solid #465445;
+    background-color: transparent;
+}
+
+.card-comment {
+    border-radius: 14px;
+}
+
+
+
+
+@keyframes pulse {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+#thank {
+    padding: 100px 200px;
+    background-color: #535353;
+    color: #dfc38a;
+}
+
+#thank h1 {
+    font-family: CormorantInfrant;
+    font-size: 3rem;
+}
+
+#thank .name_up {
+    transform: translate(-3%, 20%) !important;
+}
+
+#thank .name_down {
+    transform: translate(2%, -65%) !important;
+}
+
+#thank h5 {
+    font-size: 2rem;
+    transform: translate(7%, -40%) !important;
+}
+
+.fa-2x {
+    font-size: 2em !important;
+}

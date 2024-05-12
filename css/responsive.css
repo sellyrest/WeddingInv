@@ -1,0 +1,839 @@
+@media (min-width: 1200px) {
+    .btn-arrow {
+        font-size: 1.33333333em !important;
+        line-height: .75em !important;
+        vertical-align: -15% !important;
+    }
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #popup .invite {
+        padding-right: 433px;
+    }
+
+    .header-content h3 {
+        transform: translate(12%, -40%) !important;
+    }
+
+    #wedding h1 {
+        margin: 32px 0px;
+    }
+
+    .header-content h2 {
+        margin-top: 50px;
+    }
+
+
+    #ayat, #wedding, #wishes, #loveStory, #thank, .card-save {
+        padding: 50px 100px;
+    }
+
+    .ornament-invite {
+        height: auto;
+        width: 100%;
+    }
+
+    #wedding .text-center span {
+        font-size: 36px;
+    }
+
+    .text-invite {
+        font-size: 22px;
+    }
+
+    .wedding-content p {
+        font-size: 16px;
+    }
+
+    #gallery {
+        padding: 50px;
+    }
+
+    .form-wishes h2 {
+        margin-bottom: 32px;
+        font-size: 22px;
+    }
+
+    #thank h5 {
+        transform: translate(8%, -40%) !important;
+    }
+
+    .btn-arrow {
+        font-size: 1.33333333em !important;
+        line-height: .75em !important;
+        vertical-align: -15% !important;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    #popup {
+        background-image: url('../img/popup-tablet.jpg');
+    }
+
+    #popup .name {
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 135px;
+    }
+
+    #popup .atas {
+        padding: 100px;
+    }
+
+    #popup .bawah {
+        padding: 50px 0;
+    }
+
+    #popup .invite {
+        left: 0;
+        padding: 100px 50px 0;
+    }
+
+    #popup span {
+        font-size: 32px;
+    }
+
+    #popup .invite p {
+        font-size: 42px;
+    }
+
+    
+
+    .btn-open {
+        font-size: 28px;
+    }
+
+    .header-content h1 {
+        font-size: 4rem;
+    }
+
+    .header-content h3 {
+        font-size: 2.3rem;
+        ;
+    }
+
+    .header-content h2 {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    #ayat, #wedding, #wishes, #attention, #thank, #loveStory, .card-save {
+        padding: 50px 100px;
+    }
+
+    #wedding img {
+        width: 80%;
+        height: auto;
+    }
+
+    #wedding .text-center span {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .text-invite {
+        font-size: 40px;
+    }
+
+    .wedding-content p {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    #wedding h1 {
+        font-size: 100px;
+        margin: 40px 0;
+    }
+
+    .save-detail h5 {
+        font-size: 2.25rem;
+    }
+
+    .save-detail .day {
+        font-size: 36px;
+    }
+
+    .save-detail .time {
+        font-size: 36px;
+    }
+
+    .save-detail .line {
+        font-size: 68px;
+        line-height: 54px;
+    }
+
+    .save-detail .place {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+
+    .save-detail .address {
+        font-size: 34px;
+    }
+
+    .save-detail img {
+        width: 50% !important;
+    }
+
+    .btn-stream, .btn-map {
+        font-size: 34px;
+    }
+
+    .content-story {
+        padding: 50px 100px;
+    }
+
+    #loveStory h1 {
+        margin-bottom: 35px;
+    }
+
+    #loveStory img {
+        width: 250px;
+    }
+
+    #gallery {
+        padding: 50px 50px;
+    }
+
+    #rsvp {
+        background-size: cover;
+        font-size: 40px;
+    }
+
+    .row-attending {
+        max-width: 500px;
+    }
+
+    #wishes .row-wishes {
+        padding: 0;
+    }
+
+    .btn-arrow {
+        font-size: 1.33333333em !important;
+        line-height: .75em !important;
+        vertical-align: -15% !important;
+    }
+
+    #thank img {
+        max-width: 35% !important;
+    }
+
+    #thank h1 {
+        font-size: 3rem;
+    }
+
+    #thank h5 {
+        font-size: 2.25rem;
+    }
+}
+
+/* small */
+@media (min-width:576px) and (max-width: 767px) {
+    #popup {
+        background-image: url('../img/popup-tablet.jpg');
+    }
+
+    #popup .name {
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 100px;
+    }
+
+    #popup .atas {
+        padding: 100px;
+    }
+
+    #popup .bawah {
+        padding: 50px 0;
+    }
+
+    #popup .invite {
+        left: 0;
+        padding: 100px 50px 0;
+    }
+
+    #popup span {
+        font-size: 24px;
+    }
+
+    .header-content h3 {
+        font-size: 2rem;
+        transform: translate(9%, -40%) !important;
+    }
+
+    .header-content h1 {
+        font-size: 4rem;
+    }
+
+    .header-content h2 {
+        font-size: calc(1.325rem + .9vw);
+        margin-top: 50px;
+    }
+
+    #ayat, #wedding, #wishes, #attention, #loveStory, #thank {
+        padding: 30px 50px;
+    }
+
+    #wedding {
+        background-size: cover;
+    }
+
+    #wedding h1 {
+        font-size: 80px;
+        margin: 28px 0px;
+    }
+
+    #wedding img {
+        width: 60%;
+    }
+
+    .text-invite {
+        font-size: 20px;
+    }
+
+    #wedding .text-center span {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .wedding-content p {
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+
+    .card-save {
+        padding: 30px 100px;
+    }
+
+    .save-title h2 {
+        font-size: calc(1.325rem + .9vw);
+    }
+
+    .save-detail h5 {
+        font-size: 1rem;
+    }
+
+    .ornamen-save {
+        width: 53rem;
+    }
+
+    .save-detail .day {
+        font-size: 14px;
+    }
+
+    .save-detail .line {
+        font-size: 45px;
+        line-height: 140%;
+    }
+
+    .save-detail .time {
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    .save-detail .place {
+        font-size: 16px;
+    }
+
+    .save-detail .address {
+        font-size: 12px;
+    }
+
+    .save-detail img {
+        width: 40%;
+    }
+
+    .btn-stream, .btn-map {
+        font-size: 14px;
+    }
+
+    #countdown h3 {
+        font-size: 24px;
+    }
+
+    #countdown span {
+        font-size: 20px;
+    }
+
+    #countdown .countdown_area .countdown_wrap .single_countdown h3 {
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    #countdown .countdown_area .countdown_wrap .single_countdown span {
+        font-size: 24px;
+    }
+
+    #loveStory h1 {
+        font-size: 26px;
+    }
+
+    #loveStory img {
+        width: 200px;
+    }
+
+    #gallery {
+        padding: 50px;
+    }
+
+    #gallery .header>h1 {
+        font-size: 26px;
+    }
+
+    #rsvp {
+        background-size: cover;
+    }
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .row-attending {
+        max-width: 400px;
+    }
+
+    #wishes .row-wishes {
+        padding: 0;
+    }
+
+    .form-wishes h2 {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .protocol .cover {
+        width: 100px;
+        height: 100px;
+    }
+
+    .protocol img {
+        width: 60px;
+    }
+
+    #gift h1 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    #stream h1, #hastag h1, #filter h1 {
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    .btn-arrow {
+        font-size: 1.33333333em !important;
+        line-height: .75em !important;
+        vertical-align: -15% !important;
+    }
+
+    #thank img {
+        max-width: 30%;
+    }
+
+    #thank h1 {
+        font-size: 2rem;
+    }
+
+    #thank h5 {
+        font-size: 1rem;
+        transform: translate(8%, -50%) !important;
+    }
+}
+
+/* extra small */
+@media (max-width: 575px) {
+    #popup {
+        background-image: url('../img/popup-mobile.jpg');
+    }
+
+    #popup .name {
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 80px;
+    }
+
+    #popup .atas {
+        padding: 80px;
+    }
+
+    #popup .bawah {
+        padding: 50px 0 0;
+    }
+
+    #popup .invite {
+        left: 0;
+        padding: 115px 20px 0;
+    }
+
+    #popup span {
+        font-size: 16px;
+    }
+
+    #popup .invite p {
+        font-size: 20px;
+    }
+
+    .header-content h1 {
+        font-size: 3rem;
+    }
+
+    .header-content h2 {
+        font-size: 2rem;
+    }
+
+    .header-content h3 {
+        font-size: 1.4rem;
+        transform: translate(15%, -40%) !important;
+    }
+
+    .name_down {
+        transform: translate(3%, -50%) !important;
+    }
+
+    #ayat {
+        font-size: 18px;
+        padding: 50px;
+    }
+
+    #layer-left {
+        bottom: -40px;
+    }
+
+    #layer-right {
+        top: -40px;
+    }
+
+    #layer-left, #layer-right {
+        width: 150px;
+    }
+
+    #wedding, #loveStory, #wishes, #attention, #gallery, #stream, .card-save, #gift, #hastag, #filter, #thank, #menu {
+        padding: 35px 20px;
+    }
+
+    #wedding {
+        background-size: cover;
+    }
+
+    #wedding .text-center p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #wedding img {
+        width: 50%;
+        height: auto;
+    }
+
+    #wedding .text-center span {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    #wedding h1 {
+        font-size: 64px;
+        margin: 0 0 10px;
+    }
+
+    .save-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .save-detail h5 {
+        font-size: 18px;
+    }
+
+    .save-detail .place {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .save-detail .address {
+        font-size: 18px;
+    }
+
+    .ornamen-save {
+        width: 65rem;
+    }
+
+    .btn-stream, .btn-map {
+        font-size: 14px;
+    }
+
+    .countdown_wrap {
+        display: block !important;
+    }
+
+    #countdown .countdown_area {
+        padding: 30px 0;
+    }
+
+    #countdown .countdown_area .countdown_wrap {
+        padding: 0 !important;
+    }
+
+    #countdown .countdown_area .countdown_wrap .single_countdown h3 {
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+
+    #countdown .countdown_area .countdown_wrap .single_countdown span {
+        font-size: 22px;
+    }
+
+    #loveStory h1 {
+        font-size: 24px;
+    }
+
+    #loveStory img {
+        width: 250px;
+    }
+
+    #loveStory p {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    #gallery .header>h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #gallery .header {
+        padding-bottom: 0;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #rsvp {
+        background-image: url('../img/attend-bg.png');
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .row-attending {
+        width: 300px;
+    }
+
+    .attending-header {
+        padding: 0 20px;
+    }
+
+    .attending-header span {
+        font-size: 14px;
+    }
+
+    .attending-header h3 {
+        font-size: 20px;
+    }
+
+    .attending-header p {
+        font-size: 12px;
+    }
+
+    .btn-rsvp {
+        margin: 20px 0 5px;
+    }
+
+    #wishes .row-wishes {
+        padding: 0;
+    }
+
+    .form-wishes h2 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #gift h1 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    #gift p, #hastag p, #filter p {
+        font-size: 14px;
+    }
+
+    .btn-prev, .btn-next {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-prev {
+        left: -6%;
+    }
+
+    .btn-next {
+        right: -6%;
+    }
+
+    #attention .col {
+        margin-top: 1rem !important;
+        margin-bottom: 0 !important;
+        display: block !important;
+    }
+
+    .protocol {
+        text-align: center;
+    }
+
+    .protocol img {
+        width: 40%;
+        height: auto;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    #stream h1, #hastag h1, #filter h1 {
+        font-size: 1.2rem;
+        margin-bottom: 14px;
+    }
+
+    #gift {
+        background-image: url('../img/wedding_gift_mobile.jpg');
+    }
+
+    #thank h1 {
+        font-size: 2.5rem;
+    }
+
+    #thank .name_up {
+        transform: translate(-13%, 20%) !important;
+    }
+
+    #thank h5 {
+        font-size: 1.7rem;
+        transform: translate(12%, -40%) !important;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
+    #popup {
+        background-image: url('../img/popup-tablet.jpg');
+    }
+
+    #popup .name {
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 180px;
+    }
+
+    #popup .container {
+        padding: 100px;
+    }
+
+    #popup .invite {
+        left: 0;
+        padding-top: 120px;
+        padding-right: 0;
+    }
+
+    #popup span {
+        font-size: 38px;
+    }
+
+    #popup .invite p {
+        font-size: 54px;
+    }
+
+    .btn-open {
+        font-size: 32px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 991px) {
+    #popup {
+        background-image: url('../img/popup-landscape.png');
+    }
+
+    #popup .name {
+        left: -25%;
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 64px;
+    }
+
+    #popup .atas {
+        padding: 30px 0 0;
+    }
+
+    #popup .bawah {
+        padding: 20px 0;
+    }
+
+    #popup .invite {
+        left: 0;
+        padding: 0 375px 0 0;
+    }
+
+    #popup span {
+        font-size: 16px;
+    }
+
+    #popup .invite p {
+        font-size: 20px;
+    }
+
+    .btn-open {
+        font-size: 12px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width:576px) and (max-width: 767px) {
+    #popup {
+        background-image: url('../img/popup-landscape.png');
+    }
+
+    #popup .name {
+        padding-top: 0;
+    }
+
+    #popup .nickname {
+        font-size: 54px;
+    }
+
+    #popup .atas {
+        padding: 30px 0 0;
+    }
+
+    #popup .bawah {
+        padding: 0;
+    }
+
+    #popup .invite {
+        left: -5%;
+        padding: 0 250px 0 0;
+    }
+
+    #popup span {
+        font-size: 14px;
+    }
+
+    #popup .invite p {
+        font-size: 18px;
+    }
+
+    .btn-open {
+        font-size: 12px;
+    }
+}
